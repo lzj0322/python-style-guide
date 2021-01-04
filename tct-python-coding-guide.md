@@ -59,10 +59,16 @@ def viking_cafe_order(spam, beans, eggs=None):
 --------------------
 ### 1.2 pylint在Visual Studio Code中的配置方法
 pylint在Visual Studio Code中的配置
+* 在命令面板(Ctrl+Shift+P)中使用 Python: Select Linter，并选择pylint
+* 如果pylintrc文件不在项目中，需要在项目的settings.json文件中添加参数指定
+  * 例如`"python.linting.pylintArgs": ["--disable=W0104", "--rcfile=C:/Users/86185/PycharmProjects/mytestproject/pylintrc"]`
+* 保存文件时会自动运行linting
 
 --------------------
 ### 1.3 pylint在Pycharm中的配置方法
 pylint在Pycharm中的配置
+* 在你的Pycharm环境中安装pylint
+* 将pylintrc文件放入项目根目录或指定位置
 * `File`->`Settings`->`Tools`->`External Tools`，点加号进入`Create Tool`界面
 * `Name`和`Description`可填写pylint
 * `Program`填写pylint安装的路径，例如C:\Users\86185\PycharmProjects\mytestproject\venv\Scripts\pylint.exe
