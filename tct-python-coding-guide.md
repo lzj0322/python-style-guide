@@ -62,7 +62,7 @@ pylint在Visual Studio Code中的配置
 
 --------------------
 ### 1.3 pylint在Pycharm中的配置方法
-pylint在Pycharm中的配置
+pylint在Pycharm中的配置，"File"->"Settings"->"Tools"->"External Tools"，点加号进入"Create Tool"界面
 
 --------------------
 
