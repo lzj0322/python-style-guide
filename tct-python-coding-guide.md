@@ -62,7 +62,13 @@ pylint在Visual Studio Code中的配置
 
 --------------------
 ### 1.3 pylint在Pycharm中的配置方法
-pylint在Pycharm中的配置，"File"->"Settings"->"Tools"->"External Tools"，点加号进入"Create Tool"界面
+pylint在Pycharm中的配置
+* `File`->`Settings`->`Tools`->`External Tools`，点加号进入`Create Tool`界面
+* `Name`和`Description`可填写pylint
+* `Program`填写pylint安装的路径，例如C:\Users\86185\PycharmProjects\mytestproject\venv\Scripts\pylint.exe
+* `Argument`填写运行pylint的参数，比如指定的pylintrc配置文件，例如--rcfile=$FileDir$\pylintrc $FilePath$ --disable=W0104
+* `Working directory`填写工作目录，例如$FileDir$
+* 使用时右键点击项目或文件，在`External Tools`项中选择上面创建的`pylint`
 
 --------------------
 
