@@ -65,9 +65,11 @@ pylint在Visual Studio Code中的配置
 * 保存文件时会自动运行linting
 
 settings.json文件如下图
+
 ![wx_20210104170958](pics/wx_20210104170958.png)
 
 pylint运行时如下图
+
 ![wx_20210104171015](pics/wx_20210104171015.png)
 
 --------------------
@@ -83,9 +85,11 @@ pylint在Pycharm中的配置
 * 使用时右键点击项目或文件，在`External Tools`项中选择上面创建的`pylint`
 
 Create Tool如下图
+
 ![wx_20210104170819](pics/wx_20210104170819.png)
 
 pylint运行时如下图
+
 ![wx_20210104170922](pics/wx_20210104170922.png)
 
 --------------------
