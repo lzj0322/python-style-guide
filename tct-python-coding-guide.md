@@ -64,6 +64,12 @@ pylint在Visual Studio Code中的配置
   * 例如`"python.linting.pylintArgs": ["--disable=W0104", "--rcfile=C:/Users/86185/PycharmProjects/mytestproject/pylintrc"]`
 * 保存文件时会自动运行linting
 
+settings.json文件如下图
+![wx_20210104170958](pics/wx_20210104170958.png)
+
+pylint运行时如下图
+![wx_20210104171015](pics/wx_20210104171015.png)
+
 --------------------
 ### 1.3 pylint在Pycharm中的配置方法
 pylint在Pycharm中的配置
@@ -75,6 +81,12 @@ pylint在Pycharm中的配置
 * `Argument`填写运行pylint的参数，比如指定的pylintrc配置文件，例如--rcfile=$FileDir$\pylintrc $FilePath$ --disable=W0104
 * `Working directory`填写工作目录，例如$FileDir$
 * 使用时右键点击项目或文件，在`External Tools`项中选择上面创建的`pylint`
+
+Create Tool如下图
+![wx_20210104170819](pics/wx_20210104170819.png)
+
+pylint运行时如下图
+![wx_20210104170922](pics/wx_20210104170922.png)
 
 --------------------
 
